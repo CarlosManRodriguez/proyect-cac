@@ -1,3 +1,13 @@
 header li {
     font-size: 12px; /* Puedes ajustar este valor según lo necesites */
   }
+
+.errorpage{
+    background-color: rgb(105, 105, 217);
+    text-align: center;
+    
+}
+
+.imgError{
+    border-radius: 10%;
+}
