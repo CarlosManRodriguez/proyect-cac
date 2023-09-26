@@ -1,13 +1,38 @@
 header li {
-    font-size: 12px; /* Puedes ajustar este valor según lo necesites */
-  }
-
-.errorpage{
-    background-color: rgb(105, 105, 217);
-    text-align: center;
-    
+  font-size: 12px; /* Puedes ajustar este valor según lo necesites */
 }
 
-.imgError{
-    border-radius: 10%;
+.errorpage {
+  background-color: rgb(105, 105, 217);
+  text-align: center;
+}
+
+.imgError {
+  border-radius: 10%;
+}
+
+.carrousel-container {
+  background-color: black;
+  position: relative;
+  justify-content: end;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.carrouselElements {
+  position: absolute; 
+  top: 17rem;
+  right: 2rem;
+  font-size: 12px;
+  width: 30%;
+  display: inline-block; 
+ align-items: end;
+ color: aliceblue;
+}
+
+.row{
+    --bs-gutter-x: 0rem !important;
+}
+
+.text-cards{
+    font-size: 5;
 }
