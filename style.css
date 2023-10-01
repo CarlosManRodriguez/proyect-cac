@@ -29,3 +29,8 @@ header li {
   font-size: 10px;
 }
 
+.enviarForm{
+  background-color: #96c93e !important;
+  width: 100%;
+  border-color:  #96c93e !important;
+}
