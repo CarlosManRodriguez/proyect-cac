@@ -11,32 +11,21 @@ header li {
   border-radius: 10%;
 }
 
-.carrousel-container {  
-  position: relative;
+.carrousel-container {
   justify-content: end;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(14, 9, 9, 0.646);
 }
 
-.sombreado-carrousel{
-  background-color: black;
-  opacity: 65%;
+.sombreado-carrousel {
+  background-color: rgb(20, 17, 17);
+  opacity: 78%;
 }
 
-.carrouselElements {
-  position: absolute; 
-  top: 17rem;
-  right: 2rem;
-  font-size: 12px;
-  width: 30%;
-  display: inline-block; 
- align-items: end;
- color: aliceblue;
+.row {
+  --bs-gutter-x: 0rem !important;
 }
 
-.row{
-    --bs-gutter-x: 0rem !important;
+.text-cards {
+  font-size: 10px;
 }
 
-.text-cards{
-    font-size: 10px;
-}
