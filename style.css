@@ -29,8 +29,21 @@ header li {
   font-size: 10px;
 }
 
-.enviarForm{
+.enviarForm {
   background-color: #96c93e !important;
   width: 100%;
-  border-color:  #96c93e !important;
+  border-color: #96c93e !important;
+}
+
+.footerContainer {
+  background: rgb(22,13,70);
+  background: linear-gradient(90deg, rgba(22,13,70,1) 6%, rgba(10,8,37,1) 26%, rgba(4,79,94,1) 100%);
+  
+}
+
+
+@media (max-width: 740px) {
+  .elementIntoCarrousel {
+    display: none;
+  }
 }
