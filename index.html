@@ -15,49 +15,49 @@
 
 <body class="w-100 justify-content-center">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-lg-2">
-      <div class="container d-flex justify-content-start align-items-center px-lg-5">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark sticky-bottom">
+      <div class="container-fluid">
+        <div>
+          <img src="./img/codoacodo.png" width="70" height="40" alt="Icono Codo a Codo">
+          <a class="navbar-brand text-white" href="index.html">Conf BsAs</a>
+        </div>
 
-        <a class="navbar-brand" href="index.html">
-          <img src="./img/codoacodo.png" alt="" width="70" height="40" class="d-inline-block align-text-top">
-        </a>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Conf BsAs</a>
-          </li>
-        </ul>
-      </div>
 
-      <div class=" d-flex d-inline-flex justify-content-end container">
-        <button class="navbar-toggler m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler toggleNavbtn" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="error404.html">La conferencia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="error404.html">Los oradores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="error404.html">El lugar y la fecha</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="error404.html">Conviertete en orador</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-success" href="error404.html" tabindex="-1" aria-disabled="true">Comprar
-                tickets</a>
-            </li>
-          </ul>
+
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div>
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="error404.html">La conferencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="error404.html">Los oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="error404.html">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="error404.html">Conviertete en orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="error404.html" tabindex="-1" aria-disabled="true">Comprar
+                  tickets</a>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </nav>
-    <section class="position-relative">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner bg-secondary">
+    <section class="position-relative bg-dark">
+      <div id="carouselExampleCaptions" class="carousel slide opacity-75" data-bs-ride="carousel" tabindex="-1">
+        <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./img/ba1.jpg" class="d-block w-100" alt="Buenos Aires pck 1">
           </div>
@@ -67,26 +67,26 @@
           <div class="carousel-item">
             <img src="./img/ba3.jpg" class="d-block w-100" alt="Buenos Aires pck 3">
           </div>
-          <section class="position-absolute top-50 start-50 px-5 elementIntoCarrousel">
-            <div class="container d-flex flex-column align-items-end">
-
-              <div class=" d-flex flex-column align-items-end text-white">
-                <h4 class="mx-5">Conf BsAs</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, distinctio vel sint iusto itaque, quos
-                  quaerat nostrum cum quis saepe dolor repudiandae at non, ullam ea quo! Dolorum reprehenderit fuga sunt
-                  aspernatur, deserunt quod? Aliquid cupiditate vitae ad saepe neque iure ratione at distinctio, enim
-                  fugit sit voluptatem, asperiores illum!</p>
-
-              </div>
-              <div class="m-1 d-flex justify-content-start">
-
-                <button type="button" class="btn btn-outline-secondary m-1 text-white border border-white">Quiero ser
-                  Orador</button>
-                <button type="button" class="active btn btn-success m-1" href="error404.html">Comprar tickets</button>
-              </div>
-            </div>
-          </section>
         </div>
+        <section class="position-absolute top-50 start-50 px-5">
+          <div class="container d-flex flex-column align-items-end">
+
+            <div class=" d-flex flex-column align-items-end text-white" tabindex="1000000">
+              <h4 class="mx-5">Conf BsAs</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, distinctio vel sint iusto itaque, quos
+                quaerat nostrum cum quis saepe dolor repudiandae at non, ullam ea quo! Dolorum reprehenderit fuga sunt
+                aspernatur, deserunt quod? Aliquid cupiditate vitae ad saepe neque iure ratione at distinctio, enim
+                fugit sit voluptatem, asperiores illum!</p>
+
+            </div>
+            <div class="m-1 d-flex justify-content-start">
+
+              <button type="button" class="btn btn-outline-secondary m-1 text-white border border-white" data-bs-toggle="modal" data-bs-target="#exampleModal" >Quiero ser
+                Orador</button>
+              <button type="button" class="active btn btn-success m-1 " data-bs-toggle="modal" data-bs-target="#exampleModal" href="error404.html">Comprar tickets</button>
+            </div>
+          </div>
+        </section>
       </div>
     </section>
   </header>
@@ -172,9 +172,10 @@
         <img class="w-100" src="./img/honolulu.jpg" alt="">
       </aside>
       <aside class="col-sm-12 col-md-6 col-xl-6 bg-dark text-white">
-        <div >
+        <div class="p-2">
           <h3>Bs As-Octubre</h3>
-          <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rerum quae repellat ipsam, iusto impedit
+          <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rerum quae repellat ipsam, iusto
+            impedit
             corporis. Amet suscipit expedita aliquid delectus, assumenda ad natus itaque culpa error totam incidunt eius
             dignissimos impedit nihil, sint omnis, aperiam praesentium architecto eaque. Reprehenderit facere voluptas
             dolorem maiores animi maxime blanditiis impedit sint ipsum! Dolore consequatur temporibus commodi libero,
@@ -182,7 +183,7 @@
             fugiat mollitia obcaecati. Nobis at quo, odit hic mollitia sint natus perspiciatis adipisci nam tempora enim
             eius nesciunt eum, qui incidunt cumque soluta voluptates tempore aperiam earum laboriosam fugiat voluptatem
             ipsa!</p>
-          <button type="button" class="btn btn-outline-dark m-1 text-white active border border-white">Quiero ser
+          <button type="button" class="btn btn-outline-dark m-1 text-white active border border-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Quiero ser
             Orador</button>
         </div>
       </aside>
@@ -212,21 +213,38 @@
         <p class="text">Recuerda incluir un titulo para tu charla</p>
       </div>
       <div class="w-100 d-flex justify-content-center">
-        <button type="button" class="btn btn-primary enviarForm">Enviar</button>
+        <button type="button" class="btn btn-primary enviarForm" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar</button>
       </div>
   </section>
 
   <footer class="container-fluid footerContainer w-100">
     <div class="container text-white ">
       <section class="d-flex justify-content-center align-content-center align-items-center flex-wrap">
-        <div class="m-4 ">Preguntas <br> frecuentes</div>
-        <div class="m-4 ">Contáctanos</div>
-        <div class="m-4 ">Prensa</div>
-        <div class="m-4 ">Conferencia</div>
-        <div class="m-4 ">Terminos y <br> condiciones</div>
-        <div class="m-4 ">Privacidad</div>
-        <div class="m-4 ">Estudiantes</div>
+        <div class="m-4 "><a class="nav-link active text-white" aria-current="page" href="error404.html">Preguntas <br> frecuentes</a></div>
+        <div class="m-4 "><a class="nav-link active text-white" aria-current="page" href="error404.html">Contactanos</a></div>
+        <div class="m-4 "><a class="nav-link active text-white" aria-current="page" href="error404.html">Prensa</a></div>
+        <div class="m-4 "><a class="nav-link active text-white" aria-current="page" href="error404.html">Conferencia</a></div>
+        <div class="m-4 "><a class="nav-link active text-white" aria-current="page" href="error404.html">Terminos y <br> condiciones</a></div>
+        <div class="m-4 "><a class="nav-link active text-white" aria-current="page" href="error404.html">Privacidad</a></div>
+        <div class="m-4 "><a class="nav-link active text-white" aria-current="page" href="error404.html">Estudiantes</a></div>
       </section>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Ups!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            Lo sentimos, no se encuentra disponible. Gracias.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>            
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 
